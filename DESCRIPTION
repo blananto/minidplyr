@@ -1,14 +1,21 @@
 Package: minidplyr
-Title: What the Package Does (One Line, Title Case)
+Title: A MiniPackage Reimplementing Dplyr
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Antoine",
+           family = "Blanc",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "blanc01.antoine@gmail.com")
+Description: A package to learn how to make package.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
+Suggests: 
+    dplyr,
+    testthat
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp

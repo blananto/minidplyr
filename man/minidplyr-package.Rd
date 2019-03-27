@@ -4,12 +4,12 @@
 \name{minidplyr-package}
 \alias{minidplyr}
 \alias{minidplyr-package}
-\title{minidplyr: What the Package Does (One Line, Title Case)}
+\title{minidplyr: A MiniPackage Reimplementing Dplyr}
 \description{
-What the package does (one paragraph).
+A package to learn how to make package.
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com}
+\strong{Maintainer}: Antoine Blanc \email{blanc01.antoine@gmail.com}
 
 }
 \keyword{internal}
